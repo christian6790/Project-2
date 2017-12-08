@@ -10,6 +10,7 @@
 	</head>
 
 	<body>
+	<script src="wc.js"></script>
 		
 		<!-- start adding DIVs and using classes you create in the style.css file -->
 		<div class="column-1 black">
@@ -17,16 +18,20 @@
 		</div>
 			<div class="column-2">
 			<div class="box green">
-			<img src="images/snoop.png">
+			<img src="images/snoop.png" onclick="playsnoop(this)"/>
+			<audio src="Audio samples/Nuthin But A G Thang.mp3" type="audio/.mpeg" id="G Thang"></audio>
 			</div>
 			<div class="box blue">
-			<img src="images/drr dre.jpg"/>
+			<img src="images/drdre.jpg" onclick="playDre(this)"/>
+			<audio src="Audio samples/Xxplosive.mp3" type="audio/.mpeg" id="DDre"></audio>
 			</div>
 			<div class="box yellow">
-			<img src="images/cube.jpg"/>
+			<img src="images/cube.jpg" onclick="playcube(this)"/>
+			<audio src="Audio samples/ice cube.mp3" type="audio/.mpeg" id="Ccube"></audio>
 			</div>
 			<div class="box orange">
-			<img src="images/eassy.jpg"/>
+			<img src="images/eassy.jpg" onclick="playeassy(this)"/>
+			<audio src="Audio samples/Easy e.mp3" type="audio/.mpeg" id="Easy"></audio>
 			</div>
 		</div>		
 	</body>
