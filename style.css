@@ -42,5 +42,6 @@ body {
 	.column-2{
 		height:50vh;
 		width:100vw;
+		display: block;
 	}
 	
