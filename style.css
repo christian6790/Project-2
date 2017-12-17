@@ -38,6 +38,7 @@ body {
 	 .column-1{
 		 height: 50vh;
 		 width:100vw;
+		 display: flex;
 		 }
 	.column-2{
 		height:50vh;
